@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-offline/
+public/
+_site/
+.claude/
+# Built by `npm run build:offline` (and by the deploy workflow), and local copies of it
+/*.html
+!/index.html
+*-removed.pdf
