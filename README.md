@@ -2,31 +2,25 @@
 
 # RetouchPDF
 
-*Edit your PDFs without them ever leaving your computer. · Modifiez vos PDF sans qu'ils quittent votre ordinateur.*
+*Edit your PDFs without them ever leaving your computer.*
 
 **Free, private PDF editor that runs entirely in your browser.** Edit the text already in a PDF, fill in forms, tick checkboxes, sign, highlight, add images, and rearrange or merge pages. Your files never leave your computer.
 
-**Éditeur PDF gratuit et privé, qui fonctionne entièrement dans votre navigateur.** Modifiez le texte existant d'un PDF, remplissez des formulaires, cochez des cases, signez, surlignez, ajoutez des images, réorganisez ou fusionnez des pages. Vos fichiers ne quittent jamais votre ordinateur.
+**[Use it online](https://gabdez.github.io/retouchpdf)** · **[Support the project](https://ko-fi.com/gabdez)**
 
-**[Use it online / L'utiliser en ligne](https://gabdez.github.io/retouchpdf)** · **[Support the project / Soutenir le projet](https://ko-fi.com/gabdez)**
-
-## Privacy / Confidentialité
+## Privacy
 
 Everything happens in your browser. The page carries a Content-Security-Policy that makes the browser block every network request it could make: no uploads, no analytics, no cookies, no external scripts. You can check it yourself: open the developer tools (F12), go to the Network tab and edit a document. Nothing is sent.
 
 You can also download the page (link at the bottom of the home screen) and open the file from your computer, with no internet connection at all.
 
-Tout se passe dans votre navigateur. Une règle de sécurité intégrée à la page interdit au navigateur toute connexion réseau : pas d'envoi de fichiers, pas de mesure d'audience, pas de cookies. Pour le vérifier, ouvrez les outils de développement (F12), onglet Réseau, et modifiez un document : rien n'est envoyé.
-
-### Offline copy / Version hors ligne
+### Offline copy
 
 The link at the bottom of the home screen saves the editor as a single file, `retouchpdf.html`. Open it in Edge or Chrome: it works with no internet connection.
 
 - **Download it only from the official site.** The licence allows modified copies; the official file's SHA-256 fingerprint is published at [SHA256SUMS.txt](https://gabdez.github.io/retouchpdf/SHA256SUMS.txt). On Windows, check yours with `Get-FileHash .\retouchpdf.html` in PowerShell.
 - **A downloaded copy never updates itself or contacts the internet.** Its version and date are shown at the bottom of the home screen, next to a "Check for updates" link that opens the official site.
 - Some browsers or antivirus programs warn when downloading an `.html` file; this is expected for this kind of file.
-
-Le lien en bas de l'écran d'accueil enregistre l'éditeur dans un seul fichier, `retouchpdf.html`, qui fonctionne sans connexion. Téléchargez-le uniquement depuis le site officiel et comparez son empreinte avec [SHA256SUMS.txt](https://gabdez.github.io/retouchpdf/SHA256SUMS.txt) (`Get-FileHash .\retouchpdf.html` dans PowerShell). Une copie téléchargée ne se met jamais à jour toute seule : sa version est affichée en bas de l'écran d'accueil, avec un lien « Vérifier les mises à jour ».
 
 ## Features
 
